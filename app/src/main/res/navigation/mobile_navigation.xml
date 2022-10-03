@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.auth_app.ui.home.MapsFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.auth_app.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_stations"
+        android:name="com.example.auth_app.ui.stations.StationFragment"
+        android:label="@string/menu_stations"
+        tools:layout="@layout/fragment_station" />
+
+    <fragment
+        android:id="@+id/nav_shops"
+        android:name="com.example.auth_app.ui.shops.ShopFragment"
+        android:label="@string/menu_shops"
+        tools:layout="@layout/fragment_shop" />
+
+    <fragment
+        android:id="@+id/nav_profileForm"
+        android:name="com.example.auth_app.ui.EVDetails.ProfileFormFragment"
+        android:label="@string/menu_form"
+        tools:layout="@layout/fragment_profile_form"/>
+
+    <activity
+        android:id="@+id/nav_trip_planner"
+        android:name="com.example.auth_app.ui.tripPlanner.TripActivity"
+        android:label="@string/menu_trip"
+        tools:layout="@layout/fragment_trip"/>
+
+</navigation>

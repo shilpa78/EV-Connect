@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Heat Map" />
+
+        <item
+            android:id="@+id/nav_stations"
+            android:title="@string/menu_stations" />
+
+        <item
+            android:id="@+id/nav_shops"
+            android:title="@string/menu_shops" />
+        <item
+            android:id="@+id/nav_profileForm"
+            android:title="@string/menu_form" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/menu_profile" />
+
+        <item
+            android:id="@+id/nav_trip_planner"
+            android:title="@string/menu_trip" />
+
+    </group>
+</menu>

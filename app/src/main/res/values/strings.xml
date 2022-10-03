@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EV-Connect</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Heat Map</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_trip">Plan my Trip</string>
+    <string name="menu_payments">Payments</string>
+    <string name="menu_stations">Stations</string>
+    <string name="menu_shops">Shops</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_form"> Add EV-Details</string>
+
+    <string name="title_activity_trip_planner_maps">TripPlannerMapsActivity</string>
+</resources>

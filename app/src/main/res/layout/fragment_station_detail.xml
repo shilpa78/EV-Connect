@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".ui.stations.StationDetailFragment"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:textColor="#191970"
+        android:id="@+id/station_name" />
+
+    <TextView
+        android:id="@+id/station_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:text="Address"
+        android:textAlignment="center"
+        android:textColor="#0047AB"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/station_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:fontFamily="cursive"
+        android:text="Status"
+        android:textAlignment="center"
+        android:textColor="#191970"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/station_opening_time"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:text="Opening Time"
+            android:textAlignment="center"
+            android:textColor="#0047AB"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/station_closing_time"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Closing Time"
+            android:textColor="#0047AB"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/station_price"
+            android:layout_width="150dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0047AB"
+            android:text="Price"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:textColor="#0047AB"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:id="@+id/station_rating" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="475dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/useServiceBtn"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_corners"
+            android:gravity="center"
+            android:text="Use service"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:textColor="#0047AB" />
+
+        <Button
+            android:id="@+id/serviceDoneBtn"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_corners"
+            android:gravity="center"
+            android:text="Service Done"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:textColor="#0047AB" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="550dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="225dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#191970"
+            android:text="Waiting List Count"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/waitCountTextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textColor="#191970"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/station_track"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:text="Track"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/acme"
+        android:textColor="#0047AB"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+</FrameLayout>

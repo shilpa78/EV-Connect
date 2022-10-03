@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <TextView
+        android:id="@+id/profileID"
+        android:text="Profile"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="80dp"
+        android:height="80dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:textAlignment="center"
+        android:textColor="#191970"
+        android:textSize="60sp"/>
+
+    <TextView
+        android:id="@+id/walletID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fetch Wallet Amount"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Rs. 100"
+        android:height="80dp"
+        android:gravity="center"
+        android:fontFamily="@font/bangers"
+        android:textAlignment="center"
+        android:textColor="#191970"
+        android:textSize="45sp"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/FastTagID"
+            android:text="FastTag"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:textColor="#0047AB"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/InsuranceID"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:textColor="#0047AB"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Insurance" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="450dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ChallanID"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:textColor="#0047AB"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Challan"
+            />
+
+        <Button
+            android:id="@+id/RTOID"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:textColor="#0047AB"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="RTO" />
+    </LinearLayout>
+
+
+
+</FrameLayout>
+</LinearLayout>

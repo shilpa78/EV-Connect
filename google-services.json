@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "953077648564",
+    "firebase_url": "https://ev-auth-7f21a-default-rtdb.firebaseio.com",
+    "project_id": "ev-auth-7f21a",
+    "storage_bucket": "ev-auth-7f21a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953077648564:android:038a1484b2ce987e705be1",
+        "android_client_info": {
+          "package_name": "com.example.auth_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953077648564-50opk8vjj62an9dt017s2qkll1gs6po5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHWcltj0KqIE1tAn9VZppNdCPFV77z-Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953077648564-50opk8vjj62an9dt017s2qkll1gs6po5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

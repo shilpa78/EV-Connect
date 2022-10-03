@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.RTO"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:height="80dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:textAlignment="center"
+        android:textColor="#191970"
+        android:textSize="60sp"
+        android:text="RC Details" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGN. NO.: "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:textColor="#191970"
+            android:textSize="30dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/reg_no"
+            android:hint="Number"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model: "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="60dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:textColor="#191970"
+            android:textSize="30dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/model_name"
+            android:hint="Model"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner Name:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:textColor="#191970"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/owner_name"
+            android:hint="Owner"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MFG DT.:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:textColor="#191970"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:hint="MM/DD/YYYY"
+            android:id="@+id/mfg_date"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"
+            android:text="REGD UPTO.:"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:visibility="invisible"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="REGD UPTO. (MM/DD/YYYY)"
+            android:id="@+id/reg_upto"
+            android:visibility="invisible"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="casual"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/rtoback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/acme"
+        android:textColor="#0047AB"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="160dp"
+        android:text="Back">
+
+    </Button>
+
+
+</LinearLayout>
+
+
+
+
+
+
+

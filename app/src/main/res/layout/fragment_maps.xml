@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    tools:context=".ui.home.MapsFragment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Charging stations count"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#4700AB"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bangers"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="North Delhi\n 27"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:textSize="20dp"
+                android:textColor="#191770"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_corners"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:text="East Delhi\n 21"
+                android:textColor="#191770"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_corners"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:textSize="20dp"
+                android:text="West Delhi\n 38"
+                android:textColor="#191770"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_corners"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:text="South Delhi\n 41"
+                android:textColor="#191770"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_corners"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
